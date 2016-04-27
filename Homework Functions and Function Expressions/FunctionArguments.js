@@ -1,7 +1,7 @@
 function printArgsInfo()
 {
-	var i;
-	var type;
+	var i,
+		type;
 	for (i = 0; i < arguments.length; i++)
 	{
 		type = Array.isArray(arguments[i]) ? "array" : typeof arguments[i];
